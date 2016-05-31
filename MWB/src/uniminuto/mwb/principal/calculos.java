@@ -26,7 +26,7 @@ public class calculos {
         double Lp = 89.55 + 21 * Math.log10(f) + 38 * Math.log10(d) - 18 * Math.log10(H) + A - 18 * Math.log10(1 - Math.pow(d, 2)/(17*H));
         return Lp;
     }
-
+    //ECUACIÓN DE FRIIS
     public double Friis(double Pt, double Gt, double Lp, double Gr) {
         
         double Pr = Pt + Gt - Lp + Gr;
